@@ -45,6 +45,11 @@ import clientacqusitionpdfvideo3 from "./assets/clientacqusition/clientacqusitio
 import clientacqusitionpdfvideo4 from "./assets/clientacqusition/clientacqusitionpdfvideo4.mp4";
 import clientacqusitionpdfvideo5 from "./assets/clientacqusition/clientacqusitionpdfvideo5.m4a";
 import clientacqusitionpdf from "./assets/clientacqusition/clientacqusitionpdf.pdf";
+
+//miscellaneous
+import miscellaneousvideo from "./assets/miscellaneous/miscellaneous.mp4";
+import miscellaneousvideo2 from "./assets/miscellaneous/miscellaneous2.mp4";
+import miscellaneousvideo3 from "./assets/miscellaneous/miscellaneous3.mp4";
 export const accordionData = [
   {
     title: "Competitor Analysis",
@@ -118,5 +123,11 @@ export const accordionData = [
       clientacqusitionpdfvideo5,
     ],
     pdfs: [clientacqusitionpdf],
+  },
+  {
+    title: "Miscellaneous",
+    content:
+      "This is a recorded session on how to create social media posters, along with key points to note. Please review it. This session also covers the process of creating a blog and explains its purpose in detail. Additionally, it includes a review of branding strategies and the implementation of new approaches. Please watch it for detailed guidance.",
+    videos: [miscellaneousvideo, miscellaneousvideo2, miscellaneousvideo3],
   },
 ];
